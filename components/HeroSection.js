@@ -62,7 +62,7 @@ export default function Homes() {
       </div>
       <div className='relative pt-6 pb-16 sm:pb-24'>
         <Popover>
-          <nav
+          {/* <nav
             className='relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6'
             aria-label='Global'
           >
@@ -103,7 +103,7 @@ export default function Homes() {
                 Log in
               </a>
             </div>
-          </nav>
+          </nav> */}
 
           <Transition
             as={Fragment}
@@ -166,7 +166,7 @@ export default function Homes() {
                     className='inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200'
                   >
                     <span className='px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full'>
-                      We're hiring
+                      We&apos;re hiring
                     </span>
                     <span className='ml-4 text-sm'>Visit our careers page</span>
                     <ChevronRightIcon
