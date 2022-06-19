@@ -28,41 +28,38 @@ export default function Content() {
         </div>
         <div className='relative z-10 text-base max-w-prose mx-auto lg:max-w-5xl lg:mx-0 lg:pr-72'>
           <p className='text-lg text-gray-500'>
-            Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum
-            urna sed consectetur neque tristique pellentesque. Blandit amet, sed
-            aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel
-            porttitor vitae ut. Amet vitae fames senectus vitae.
+            Rigorous Testing: Once we have finished the initial development of
+            our client&apos;s product, we begin performing meticulous bug
+            checks. These tests are included in the price of the development
+            package. After testing, we deliver the software to our clients.
           </p>
         </div>
         <div className='lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start'>
           <div className='relative z-10'>
             <div className='prose prose-indigo text-gray-500 mx-auto lg:max-w-none'>
               <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat
-                turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                eu viverra donec ut volutpat donec laoreet quam urna.
+                Quality Guaranteed: The world of technology can be fast-paced
+                and scary. That&apos;s why our goal is to provide a high-quality
+                product that aligns with your company&apos;s needs. No matter
+                the budget, we pride ourselves on providing professional
+                customer service. We guarantee you will be satisfied with our
+                work.
               </p>
-              <ul role='list'>
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>
-                  Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-                </li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-              </ul>
+
+              <h3>We&apos;re here to help</h3>
+              <br></br>
               <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                semper. Pellentesque in venenatis vestibulum consectetur nibh
-                id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim
-                fermentum lacus in. Viverra.
-              </p>
-              <h3>We’re here to help</h3>
-              <p>
-                Tincidunt integer commodo, cursus etiam aliquam neque, et.
-                Consectetur pretium in volutpat, diam. Montes, magna cursus
-                nulla feugiat dignissim id lobortis amet. Laoreet sem est
-                phasellus eu proin massa, lectus. Diam rutrum posuere donec
-                ultricies non morbi. Mi a platea auctor mi.
+                We understand the unique business goals, needs, and pains of
+                prospects, helping them grow their business with IT products.
+                Our team works with prospects through an entire sales cycle,
+                from intro conversations through to contract negotiations.
+                Uncovering new business opportunities. Effectively moving the
+                way through the sales cycle managing your pipeline.
+                Collaborating on projects within the team and region with other
+                teams to deliver the highest level of merchant experience.
+                Making the most of the opportunity to work at an amazing,
+                innovative, and rapidly growing company; have an impact; be
+                involved and do something incredible!
               </p>
             </div>
             <div className='mt-10 flex text-base max-w-prose mx-auto lg:max-w-none'>
@@ -135,10 +132,17 @@ export default function Content() {
                     <path d='M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z' />
                   </svg>
                   <p className='relative'>
-                    Tincidunt integer commodo, cursus etiam aliquam neque, et.
-                    Consectetur pretium in volutpat, diam. Montes, magna cursus
-                    nulla feugiat dignissim id lobortis amet. Laoreet sem est
-                    phasellus eu proin massa, lectus.
+                    Softco vision is a company that helps grow and guide a high
+                    impact, high leverage, and high visibility team that
+                    supports the productivity of IT engineers working on every
+                    code. The team creates and supports frontend services,
+                    tools, and practices used by IT engineers every day. Team
+                    work to support frontend development workflows; to expand
+                    and improve frontend testing capabilities; to maintain a
+                    high bar for the quality and reliability of frontend code;
+                    and to generally identify and eliminate rough edges in the
+                    frontend development lifecycle. and handling middleware and
+                    backend.
                   </p>
                 </div>
               </div>

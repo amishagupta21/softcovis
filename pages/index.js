@@ -12,13 +12,13 @@ export default function Home() {
         title='SoftcoVision-home'
         description='Bring your Business into the Software ideas.we turn the digital dreams of our clients into a reality'
         keywords={[
-          'Software development',
-          'Software customization',
-          'Computer networking',
-          'Software quality testing',
-          'Manual testing',
-          'Artificial intelligence software',
-          'Providing profiles for job postings',
+          'Software development in Canada',
+          'Software customization in Ontario',
+          'Computer networking in Greater Toronto Area',
+          'Software quality testing in Toronto',
+          'Manual testing in Mississauga',
+          'Artificial intelligence software in Brampton',
+          'Providing profiles for job postings in Alberta and Calgary',
         ]}
       >
         <HeroSection />

@@ -98,8 +98,10 @@ export default function Contactsale() {
             Contact sales
           </h2>
           <p className='mt-4 text-lg leading-6 text-gray-500'>
-            Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat
-            massa dictumst amet. Sapien tortor lacus arcu.
+            We know that our clients have unique needs and circumstances. Tell
+            us more about your project, and we will get back to you soon with
+            some ideas of how we can address those circumstances while creating
+            the most stable software possible.
           </p>
         </div>
         <div className='mt-12'>

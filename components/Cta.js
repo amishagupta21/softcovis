@@ -26,15 +26,9 @@ export default function Cta() {
                 <span className='block'>Start your free trial today.</span>
               </h2>
               <p className='mt-4 text-lg leading-6 text-indigo-200'>
-                Ac euismod vel sit maecenas id pellentesque eu sed consectetur.
-                Malesuada adipiscing sagittis vel nulla nec.
+                By chossing our Facility , You come to know how good our Company
+                is for providing your requirements on proper time.
               </p>
-              <a
-                href='#'
-                className='mt-8 bg-white border border-transparent rounded-md shadow px-5 py-3 inline-flex items-center text-base font-medium text-indigo-600 hover:bg-indigo-50'
-              >
-                Sign up for free
-              </a>
             </div>
           </div>
           <div className='-mt-6 aspect-w-5 aspect-h-3 md:aspect-w-2 md:aspect-h-1'>

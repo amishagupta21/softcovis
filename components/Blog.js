@@ -5,7 +5,7 @@ const posts = [
     href: '#',
     category: { name: 'Article', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.',
+      "If you are looking for a perfect Network application, look no further than this company! My product's interface is intuitive and easy to use. I can't imagine using any other company for my software needs!",
     date: 'Mar 16, 2020',
     datetime: '2020-03-16',
     imageUrl:
@@ -23,7 +23,7 @@ const posts = [
     href: '#',
     category: { name: 'Video', href: '#' },
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.',
+      "This company worked closely with me throughout the entire process. I loved the final product and can't wait to use this company in the future!",
     date: 'Mar 10, 2020',
     datetime: '2020-03-10',
     imageUrl:
@@ -68,8 +68,7 @@ export default function Blog() {
             From the blog
           </h2>
           <p className='mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-            libero labore natus atque, ducimus sed.
+            Professional, Personal Solutions with ease
           </p>
         </div>
         <div className='mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none'>

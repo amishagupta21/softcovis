@@ -29,8 +29,10 @@ export default function Getin() {
               Get in touch
             </h2>
             <p className='mt-3 text-lg leading-6 text-gray-500'>
-              Nullam risus blandit ac aliquam justo ipsum. Quam mauris volutpat
-              massa dictumst amet. Sapien tortor lacus arcu.
+              We know that our clients have unique needs and circumstances. Tell
+              us more about your project, and we will get back to you soon with
+              some ideas of how we can address those circumstances while
+              creating the most stable software possible.
             </p>
             <dl className='mt-8 text-base text-gray-500'>
               <div>
@@ -47,7 +49,7 @@ export default function Getin() {
                     className='flex-shrink-0 h-6 w-6 text-gray-400'
                     aria-hidden='true'
                   />
-                  <span className='ml-3'>+1 (555) 123-4567</span>
+                  <span className='ml-3'>+1 403 918 8561</span>
                 </dd>
               </div>
               <div className='mt-3'>
@@ -57,7 +59,7 @@ export default function Getin() {
                     className='flex-shrink-0 h-6 w-6 text-gray-400'
                     aria-hidden='true'
                   />
-                  <span className='ml-3'>support@example.com</span>
+                  <span className='ml-3'>SoftCoVision@123.com</span>
                 </dd>
               </div>
             </dl>

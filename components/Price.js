@@ -152,23 +152,12 @@ export default function Example() {
                     <span className='rounded bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-500 tracking-wide uppercase'>
                       What&apos;s new
                     </span>
-                    <span className='inline-flex items-center text-sm font-medium text-rose-500 space-x-1'>
-                      <span>Just shipped version 0.1.0</span>
-                      <ChevronRightIcon
-                        className='h-5 w-5'
-                        aria-hidden='true'
-                      />
-                    </span>
                   </a>
                 </div>
                 <div className='mt-6 sm:max-w-xl'>
                   <h1 className='text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl'>
                     Issue management for growing teams
                   </h1>
-                  <p className='mt-6 text-xl text-gray-500'>
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo.
-                  </p>
                 </div>
                 <form
                   action='#'
@@ -352,9 +341,10 @@ export default function Example() {
                           <path d='M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z' />
                         </svg>
                         <p className='relative'>
-                          Tincidunt integer commodo, cursus etiam aliquam neque,
-                          et. Consectetur pretium in volutpat, diam. Montes,
-                          magna cursus nulla feugiat dignissim id lobortis amet.
+                          Softco Vision is a one-stop source for software
+                          development. VC-backed startups and fast-growing
+                          companies turn to us for dedicated engineering teams
+                          that deliver scalable, user-friendly products.
                         </p>
                       </div>
 
@@ -377,26 +367,33 @@ export default function Example() {
                 </h2>
                 <div className='mt-6 text-gray-500 space-y-6'>
                   <p className='text-lg'>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                    Dictum urna sed consectetur neque tristique pellentesque.
-                    Blandit amet, sed aenean erat arcu morbi. Cursus faucibus
-                    nunc nisl netus morbi vel porttitor vitae ut. Amet vitae
-                    fames senectus vitae.
+                    Responsive Testing: Ensures an application or web page reads
+                    and functions well despite the device or screen size on
+                    which it is used/viewed. As a team we design websites that
+                    are not just attractive and fully functional, but that can
+                    also be easily accessible by your users on the go. We create
+                    interactive responsive designs integrating the latest trends
+                    and technologies in the mobile world.
                   </p>
                   <p className='text-base leading-7'>
-                    Sollicitudin tristique eros erat odio sed vitae, consequat
-                    turpis elementum. Lorem nibh vel, eget pretium arcu vitae.
-                    Eros eu viverra donec ut volutpat donec laoreet quam urna.
-                    Sollicitudin tristique eros erat odio sed vitae, consequat
-                    turpis elementum. Lorem nibh vel, eget pretium arcu vitae.
-                    Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                    Compatibility Testing : Helps confirm an application works
+                    well across all applicable devices, browsers, and operating
+                    systems. With our QA Testing service, we test services or
+                    products to ensure that the processes, research and people
+                    behind the making of product exceed or meet customer
+                    expectations. We examine the processes and make relevant
+                    changes to them that result in end-product.
                   </p>
                   <p className='text-base leading-7'>
-                    Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                    tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                    semper. Pellentesque in venenatis vestibulum consectetur
-                    nibh id. In id ut tempus egestas. Enim sit aliquam nec, a.
-                    Morbi enim fermentum lacus in. Viverra.
+                    Performance Testing: Used to verify a systems responsiveness
+                    and stability under various workloads; may also include a
+                    focus on reliability and scalability. Our performance
+                    testing service by addressing the products requirements in
+                    different domains and technologies. For any applications
+                    desirable user experience, we conduct website load services
+                    and mitigate every intricate issue that comes forth during
+                    the process. Our team is ever-evolving and grows as the
+                    technology flourishes in the industry.
                   </p>
                 </div>
               </div>
@@ -437,11 +434,16 @@ export default function Example() {
                   Backed by world-renowned investors
                 </h2>
                 <p className='mt-6 max-w-3xl text-lg leading-7 text-gray-500'>
-                  Sagittis scelerisque nulla cursus in enim consectetur quam.
-                  Dictum urna sed consectetur neque tristique pellentesque.
-                  Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc
-                  nisl netus morbi vel porttitor vitae ut. Amet vitae fames
-                  senectus vitae.
+                  Softco vision is a company that helps grow and guide a high
+                  impact, high leverage, and high visibility team that supports
+                  the productivity of IT engineers working on every code. The
+                  team creates and supports frontend services, tools, and
+                  practices used by IT engineers every day. Team work to support
+                  frontend development workflows; to expand and improve frontend
+                  testing capabilities; to maintain a high bar for the quality
+                  and reliability of frontend code; and to generally identify
+                  and eliminate rough edges in the frontend development
+                  lifecycle. and handling middleware and backend.
                 </p>
                 <div className='mt-6'>
                   <a href='#' className='text-base font-medium text-rose-500'>
@@ -530,10 +532,6 @@ export default function Example() {
                   <h2 className='text-3xl font-extrabold text-white tracking-tight sm:text-4xl'>
                     Get notified when we&rsquo;re launching.
                   </h2>
-                  <p className='mt-6 mx-auto max-w-2xl text-lg text-rose-100'>
-                    Sagittis scelerisque nulla cursus in enim consectetur quam.
-                    Dictum urna sed consectetur neque tristique pellentesque.
-                  </p>
                 </div>
                 <form
                   action='#'

@@ -168,7 +168,7 @@ export default function Homes() {
                     <span className='px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full'>
                       We&apos;re hiring
                     </span>
-                    <span className='ml-4 text-sm'>Visit our careers page</span>
+                    {/* <span className='ml-4 text-sm'>Visit our careers page</span> */}
                     <ChevronRightIcon
                       className='ml-2 w-5 h-5 text-gray-500'
                       aria-hidden='true'
@@ -181,9 +181,11 @@ export default function Homes() {
                     </span>
                   </h1>
                   <p className='mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl'>
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                    occaecat fugiat aliqua ad ad non deserunt sunt.
+                    At our company, we turn the digital dreams of our clients
+                    into a reality. We work closely with our users throughout
+                    development to ensure that we are still aligned with the
+                    end-goal. We are committed to producing exceptional software
+                    for each of our clients.
                   </p>
                   <p className='mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10'>
                     Used by

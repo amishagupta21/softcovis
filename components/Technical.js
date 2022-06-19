@@ -12,8 +12,8 @@ export default function Technical() {
             </h2>
             <div className='mt-3'>
               <p className='text-lg text-gray-500'>
-                Nullam risus blandit ac aliquam justo ipsum. Quam mauris
-                volutpat massa dictumst amet. Sapien tortor lacus arcu.
+                GTA office- 7900 Hurontario St, Brampton, ON L6Y 0P6 | Calgary
+                Office- 3650/1 Westwinds Dr NE, Calgary, AB T3J 5H2 Canada
               </p>
             </div>
             <div className='mt-9'>
@@ -25,7 +25,7 @@ export default function Technical() {
                   />
                 </div>
                 <div className='ml-3 text-base text-gray-500'>
-                  <p>+1 (555) 123 4567</p>
+                  <p>+1 403 918 8561</p>
                   <p className='mt-1'>Mon-Fri 8am to 6pm PST</p>
                 </div>
               </div>
@@ -37,7 +37,7 @@ export default function Technical() {
                   />
                 </div>
                 <div className='ml-3 text-base text-gray-500'>
-                  <p>support@example.com</p>
+                  <p>SoftCoVision@123.com</p>
                 </div>
               </div>
             </div>
@@ -48,9 +48,8 @@ export default function Technical() {
             </h2>
             <div className='mt-3'>
               <p className='text-lg text-gray-500'>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni,
-                repellat error corporis doloribus similique, voluptatibus
-                numquam quam, quae officiis facilis.
+                GTA office- 7900 Hurontario St, Brampton, ON L6Y 0P6 | Calgary
+                Office- 3650/1 Westwinds Dr NE, Calgary, AB T3J 5H2 Canada
               </p>
             </div>
             <div className='mt-9'>
@@ -62,7 +61,7 @@ export default function Technical() {
                   />
                 </div>
                 <div className='ml-3 text-base text-gray-500'>
-                  <p>+1 (555) 123 4567</p>
+                  <p>+1 403 918 8561</p>
                   <p className='mt-1'>Mon-Fri 8am to 6pm PST</p>
                 </div>
               </div>
@@ -74,7 +73,7 @@ export default function Technical() {
                   />
                 </div>
                 <div className='ml-3 text-base text-gray-500'>
-                  <p>support@example.com</p>
+                  <p>SoftCoVision@123.com</p>
                 </div>
               </div>
             </div>

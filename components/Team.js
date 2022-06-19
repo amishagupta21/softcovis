@@ -18,9 +18,10 @@ export default function Team() {
           Get in touch
         </h1>
         <p className='mt-6 text-xl text-indigo-100 max-w-3xl'>
-          Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque
-          lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut
-          consectetur. Sit justo viverra non adipisicing elit distinctio.
+          We know that our clients have unique needs and circumstances. Tell us
+          more about your project, and we will get back to you soon with some
+          ideas of how we can address those circumstances while creating the
+          most stable software possible.
         </p>
       </div>
     </div>

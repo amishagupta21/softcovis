@@ -8,8 +8,8 @@ export default function Stat() {
             Trusted by developers from over 80 planets
           </h2>
           <p className='mt-3 text-xl text-gray-500 sm:mt-4'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Repellendus repellat laudantium.
+            We&apos;re always working on something new. Reach out with any
+            questions about upcoming releases!
           </p>
         </div>
       </div>

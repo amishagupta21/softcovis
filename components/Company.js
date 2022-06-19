@@ -9,19 +9,15 @@ export default function Company() {
               Used by the world&apos;s most average companies
             </h2>
             <p className='mt-3 max-w-3xl text-lg text-gray-500'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-              egestas tempus tellus etiam sed. Quam a scelerisque amet
-              ullamcorper eu enim et fermentum, augue.
+              An important distinction is custom software development as opposed
+              to commercial software development. Custom software development is
+              the process of designing, creating, deploying and maintaining
+              software for a specific set of users, functions or organizations.
+              In contrast, commercial off-the-shelf software (COTS) is designed
+              for a broad set of requirements, allowing it to be packaged and
+              commercially marketed and distributed.
             </p>
             <div className='mt-8 sm:flex'>
-              <div className='rounded-md shadow'>
-                <a
-                  href='#'
-                  className='flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700'
-                >
-                  Create Account
-                </a>
-              </div>
               <div className='mt-3 sm:mt-0 sm:ml-3'>
                 <a
                   href='#'
