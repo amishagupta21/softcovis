@@ -22,7 +22,7 @@ export default function Feature() {
         ]}
       >
         <Price />
-        <New />
+        {/* <New /> */}
         <FAQ />
       </Base>
     </>

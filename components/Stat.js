@@ -5,7 +5,7 @@ export default function Stat() {
       <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
         <div className='max-w-4xl mx-auto text-center'>
           <h2 className='text-3xl font-extrabold text-gray-900 sm:text-4xl'>
-            Trusted by developers from over 80 planets
+            Trusted by developers from over planets
           </h2>
           <p className='mt-3 text-xl text-gray-500 sm:mt-4'>
             We&apos;re always working on something new. Reach out with any
@@ -21,9 +21,9 @@ export default function Stat() {
               <dl className='rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3'>
                 <div className='flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r'>
                   <dt className='order-2 mt-2 text-lg leading-6 font-medium text-gray-500'>
-                    Pepperoni
+                    Response
                   </dt>
-                  <dd className='order-1 text-5xl font-extrabold text-indigo-600'>
+                  <dd className='order-1 text-5xl font-extrabold text-red-600'>
                     100%
                   </dd>
                 </div>
@@ -31,16 +31,16 @@ export default function Stat() {
                   <dt className='order-2 mt-2 text-lg leading-6 font-medium text-gray-500'>
                     Delivery
                   </dt>
-                  <dd className='order-1 text-5xl font-extrabold text-indigo-600'>
+                  <dd className='order-1 text-5xl font-extrabold text-red-600'>
                     24/7
                   </dd>
                 </div>
                 <div className='flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l'>
                   <dt className='order-2 mt-2 text-lg leading-6 font-medium text-gray-500'>
-                    Calories
+                    Followers
                   </dt>
-                  <dd className='order-1 text-5xl font-extrabold text-indigo-600'>
-                    100k
+                  <dd className='order-1 text-5xl font-extrabold text-red-600'>
+                    10k
                   </dd>
                 </div>
               </dl>

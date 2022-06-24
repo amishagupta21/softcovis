@@ -26,10 +26,10 @@
 import { ChevronRightIcon, StarIcon } from '@heroicons/react/solid'
 
 const stats = [
-  { label: 'Founded', value: '2021' },
+  { label: 'Founded', value: '2022' },
   { label: 'Employees', value: '5' },
   { label: 'Beta Users', value: '521' },
-  { label: 'Raised', value: '$25M' },
+  { label: 'Raised', value: '$2M' },
 ]
 const logos = [
   {
@@ -133,7 +133,7 @@ const footerNavigation = {
 
 export default function Example() {
   return (
-    <div className='bg-white'>
+    <div className='bg-red-100'>
       <main>
         {/* Hero section */}
         <div className='pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48'>
@@ -142,17 +142,17 @@ export default function Example() {
               <div>
                 <img
                   className='h-11 w-auto'
-                  src='https://tailwindui.com/img/logos/workflow-mark.svg?color=rose&shade=500'
-                  alt='Workflow'
+                  src='logo.PNG'
+                  alt='SoftCOVision'
                 />
               </div>
               <div className='mt-20'>
                 <div>
-                  <a href='#' className='inline-flex space-x-4'>
+                  {/* <a href='#' className='inline-flex space-x-4'>
                     <span className='rounded bg-rose-50 px-2.5 py-1 text-xs font-semibold text-rose-500 tracking-wide uppercase'>
                       What&apos;s new
                     </span>
-                  </a>
+                  </a> */}
                 </div>
                 <div className='mt-6 sm:max-w-xl'>
                   <h1 className='text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl'>
@@ -324,11 +324,7 @@ export default function Example() {
                   <div className='absolute inset-0 bg-gradient-to-t from-rose-600 via-rose-600 opacity-90' />
                   <div className='relative px-8'>
                     <div>
-                      <img
-                        className='h-12'
-                        src='https://tailwindui.com/img/logos/workcation.svg?color=white'
-                        alt='Workcation'
-                      />
+                      <img className='h-12' src='logo.PNG' alt='SoftCOVision' />
                     </div>
                     <blockquote className='mt-8'>
                       <div className='relative text-lg font-medium text-white md:flex-grow'>
@@ -350,7 +346,7 @@ export default function Example() {
 
                       <footer className='mt-4'>
                         <p className='text-base font-semibold text-rose-200'>
-                          Sarah Williams, CEO at Workcation
+                          Sarah Williams, CEO at SoftCOVision
                         </p>
                       </footer>
                     </blockquote>
@@ -362,7 +358,7 @@ export default function Example() {
             <div className='relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0'>
               {/* Content area */}
               <div className='pt-12 sm:pt-16 lg:pt-20'>
-                <h2 className='text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl'>
+                <h2 className='text-3xl text-red-900 font-extrabold tracking-tight sm:text-4xl'>
                   On a mission to empower teams
                 </h2>
                 <div className='mt-6 text-gray-500 space-y-6'>
@@ -416,9 +412,9 @@ export default function Example() {
                   ))}
                 </dl>
                 <div className='mt-10'>
-                  <a href='#' className='text-base font-medium text-rose-500'>
+                  {/* <a href='#' className='text-base font-medium text-rose-500'>
                     Learn more about how we&apos;re changing the world
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
@@ -430,7 +426,7 @@ export default function Example() {
           <div className='mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl'>
             <div className='lg:grid lg:grid-cols-2 lg:gap-24 lg:items-center'>
               <div>
-                <h2 className='text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl'>
+                <h2 className='text-3xl font-extrabold text-red-900 tracking-tight sm:text-4xl'>
                   Backed by world-renowned investors
                 </h2>
                 <p className='mt-6 max-w-3xl text-lg leading-7 text-gray-500'>
@@ -446,16 +442,16 @@ export default function Example() {
                   lifecycle. and handling middleware and backend.
                 </p>
                 <div className='mt-6'>
-                  <a href='#' className='text-base font-medium text-rose-500'>
+                  {/* <a href='#' className='text-base font-medium text-rose-500'>
                     Meet our investors and advisors&nbsp&rarr;
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className='mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2'>
                 {logos.map((logo) => (
                   <div
                     key={logo.name}
-                    className='col-span-1 flex justify-center py-8 px-8 bg-gray-50'
+                    className='col-span-1 flex justify-center py-8 px-8 bg-red-50'
                   >
                     <img className='max-h-12' src={logo.url} alt={logo.name} />
                   </div>

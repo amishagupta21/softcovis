@@ -21,7 +21,7 @@ export default function Contact() {
           'Providing profiles for job postings in Alberta and Calgary',
         ]}
       >
-        <Contactsale />
+        {/* <Contactsale /> */}
         <Getin />
         <Technical />
       </Base>

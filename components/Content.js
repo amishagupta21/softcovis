@@ -16,13 +16,13 @@
 */
 export default function Content() {
   return (
-    <div className='py-16 bg-gray-50 overflow-hidden'>
+    <div className='py-16 bg-red-50 overflow-hidden'>
       <div className='max-w-7xl mx-auto px-4 space-y-8 sm:px-6 lg:px-8'>
         <div className='text-base max-w-prose mx-auto lg:max-w-none'>
-          <h2 className='text-base text-indigo-600 font-semibold tracking-wide uppercase'>
-            Transactions
+          <h2 className='text-base text-red-600 font-semibold tracking-wide uppercase'>
+            About SoftCOVision
           </h2>
-          <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl'>
+          <p className='mt-2 text-3xl leading-8 font-extrabold tracking-tight text-red-900 sm:text-4xl'>
             What makes us different
           </p>
         </div>
@@ -66,19 +66,19 @@ export default function Content() {
               <div className='rounded-md shadow'>
                 <a
                   href='#'
-                  className='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700'
+                  className='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700'
                 >
                   Contact sales
                 </a>
               </div>
-              <div className='rounded-md shadow ml-4'>
+              {/* <div className='rounded-md shadow ml-4'>
                 <a
                   href='#'
-                  className='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50'
+                  className='w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-red-600 bg-white hover:bg-gray-50'
                 >
                   Learn more
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className='mt-12 relative text-base max-w-prose mx-auto lg:mt-0 lg:max-w-none'>
@@ -117,14 +117,10 @@ export default function Content() {
             </svg>
             <blockquote className='relative bg-white rounded-lg shadow-lg'>
               <div className='rounded-t-lg px-6 py-8 sm:px-10 sm:pt-10 sm:pb-8'>
-                <img
-                  src='https://tailwindui.com/img/logos/workcation-logo-indigo-600-mark-gray-800-and-indigo-600-text.svg'
-                  alt='Workcation'
-                  className='h-8'
-                />
+                <img src='logo.PNG' alt='SoftCOVision' className='h-8' />
                 <div className='relative text-lg text-gray-700 font-medium mt-8'>
                   <svg
-                    className='absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-gray-200'
+                    className='absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-red-200'
                     fill='currentColor'
                     viewBox='0 0 32 32'
                     aria-hidden='true'
@@ -146,7 +142,7 @@ export default function Content() {
                   </p>
                 </div>
               </div>
-              <cite className='relative flex items-center sm:items-start bg-indigo-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10'>
+              <cite className='relative flex items-center sm:items-start bg-red-600 rounded-b-lg not-italic py-5 px-6 sm:py-5 sm:pl-12 sm:pr-10 sm:mt-10'>
                 <span className='relative rounded-full border-2 border-white sm:absolute sm:top-0 sm:transform sm:-translate-y-1/2'>
                   <img
                     className='w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-indigo-300'
@@ -158,7 +154,7 @@ export default function Content() {
                   <span className='text-white font-semibold sm:inline'>
                     Judith Black
                   </span>{' '}
-                  <span className='sm:inline'>CEO at Workcation</span>
+                  <span className='sm:inline'>CEO at SoftCOVision</span>
                 </span>
               </cite>
             </blockquote>

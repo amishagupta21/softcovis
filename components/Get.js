@@ -20,12 +20,12 @@ export default function Getin() {
   return (
     <div className='relative bg-white'>
       <div className='absolute inset-0'>
-        <div className='absolute inset-y-0 left-0 w-1/2 bg-gray-50' />
+        <div className='absolute inset-y-0 left-0 w-1/2 bg-red-100' />
       </div>
       <div className='relative max-w-7xl mx-auto lg:grid lg:grid-cols-5'>
-        <div className='bg-gray-50 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12'>
+        <div className='bg-red-100 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12'>
           <div className='max-w-lg mx-auto'>
-            <h2 className='text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl'>
+            <h2 className='text-2xl font-extrabold tracking-tight text-red-900 sm:text-3xl'>
               Get in touch
             </h2>
             <p className='mt-3 text-lg leading-6 text-gray-500'>
@@ -130,7 +130,7 @@ export default function Getin() {
               <div>
                 <button
                   type='submit'
-                  className='inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                  className='inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500'
                 >
                   Submit
                 </button>

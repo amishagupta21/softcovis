@@ -29,7 +29,7 @@ const navigation = [
 
 export default function Homes() {
   return (
-    <div className='relative bg-gray-800 overflow-hidden'>
+    <div className='relative bg-red-800 overflow-hidden'>
       <div
         className='hidden sm:block sm:absolute sm:inset-0'
         aria-hidden='true'
@@ -62,48 +62,50 @@ export default function Homes() {
       </div>
       <div className='relative pt-6 pb-16 sm:pb-24'>
         <Popover>
-          {/* <nav
-            className='relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6'
-            aria-label='Global'
-          >
-            <div className='flex items-center flex-1'>
-              <div className='flex items-center justify-between w-full md:w-auto'>
-                <a href='#'>
-                  <span className='sr-only'>Workflow</span>
-                  <img
-                    className='h-8 w-auto sm:h-10'
-                    src='https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg'
-                    alt=''
-                  />
-                </a>
-                <div className='-mr-2 flex items-center md:hidden'>
-                  <Popover.Button className='bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white'>
-                    <span className='sr-only'>Open main menu</span>
-                    <MenuIcon className='h-6 w-6' aria-hidden='true' />
-                  </Popover.Button>
+          {/* { }
+            <nav
+              className='relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6'
+              aria-label='Global'
+            >
+              <div className='flex items-center flex-1'>
+                <div className='flex items-center justify-between w-full md:w-auto'>
+                  <a href='#'>
+                    <span className='sr-only'>Workflow</span>
+                    <img
+                      className='h-8 w-auto sm:h-10'
+                      src='https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg'
+                      alt=''
+                    />
+                  </a>
+                  <div className='-mr-2 flex items-center md:hidden'>
+                    <Popover.Button className='bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-700 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white'>
+                      <span className='sr-only'>Open main menu</span>
+                      <MenuIcon className='h-6 w-6' aria-hidden='true' />
+                    </Popover.Button>
+                  </div>
+                </div>
+                <div className='hidden space-x-10 md:flex md:ml-10'>
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className='font-medium text-white hover:text-gray-300'
+                    >
+                      {item.name}
+                    </a>
+                  ))}
                 </div>
               </div>
-              <div className='hidden space-x-10 md:flex md:ml-10'>
-                {navigation.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className='font-medium text-white hover:text-gray-300'
-                  >
-                    {item.name}
-                  </a>
-                ))}
+              <div className='hidden md:flex'>
+                <a
+                  href='#'
+                  className='inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700'
+                >
+                  Log in
+                </a>
               </div>
-            </div>
-            <div className='hidden md:flex'>
-              <a
-                href='#'
-                className='inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700'
-              >
-                Log in
-              </a>
-            </div>
-          </nav> */}
+            </nav>
+                  */}
 
           <Transition
             as={Fragment}
@@ -161,19 +163,19 @@ export default function Homes() {
             <div className='lg:grid lg:grid-cols-12 lg:gap-8'>
               <div className='px-4 sm:px-6 sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left lg:flex lg:items-center'>
                 <div>
-                  <a
+                  {/* <a
                     href='#'
                     className='inline-flex items-center text-white bg-gray-900 rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200'
-                  >
-                    <span className='px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full'>
+                  > */}
+                  {/* <span className='px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-indigo-500 rounded-full'>
                       We&apos;re hiring
-                    </span>
-                    {/* <span className='ml-4 text-sm'>Visit our careers page</span> */}
-                    <ChevronRightIcon
+                    </span> */}
+                  {/* <span className='ml-4 text-sm'>Visit our careers page</span> */}
+                  {/* <ChevronRightIcon
                       className='ml-2 w-5 h-5 text-gray-500'
                       aria-hidden='true'
-                    />
-                  </a>
+                    /> */}
+                  {/* </a> */}
                   <h1 className='mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl'>
                     <span className='md:block'>Data to enrich your</span>{' '}
                     <span className='text-indigo-400 md:block'>
@@ -185,7 +187,10 @@ export default function Homes() {
                     into a reality. We work closely with our users throughout
                     development to ensure that we are still aligned with the
                     end-goal. We are committed to producing exceptional software
-                    for each of our clients.
+                    for each of our clients.Making the most of the opportunity
+                    to work at an amazing, innovative, and rapidly growing
+                    company have an impact be involved and do something
+                    incredible!
                   </p>
                   <p className='mt-8 text-sm text-white uppercase tracking-wide font-semibold sm:mt-10'>
                     Used by
